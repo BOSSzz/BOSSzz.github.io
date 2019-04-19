@@ -6,7 +6,7 @@ categories:
 tags: spark, hadoop
 ---
 
-因为工作需要搭建本地spark运行环境，同时需要访问hdfs，记录一下搭建过程和遇到的问题
+因为工作需要搭建本地spark运行环境，同时需要访问hdfs，记录一下搭建过程和遇到的问题
 
 # 一、开始
 ## 1.hdfs准备
