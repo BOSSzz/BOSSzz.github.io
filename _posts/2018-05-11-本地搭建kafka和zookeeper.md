@@ -152,7 +152,7 @@ $ sh bin/kafka-server-start.sh config/server.properties
 
 成功启动kafak
 
-## 4.一些常用命令
+## 4.一些常用命令
 ### (1) 创建一个topic
 ```
 $ sh kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topic-1
