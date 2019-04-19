@@ -856,6 +856,20 @@ List<String> values = new ArrayList<>(clientHead.getHandshakeData().getHttpHeade
 ```
 之前我是没有new ArrayList的，所以会序列化失败
 
+# 另一种思路
+
+写完博客后不久，我发现可以不修改java代码，只需修改前端js代码就可以简单的避免这个问题。
+
+```js
+var socket = io.connect('http://localhost:8099', {transports:['websocket']});
+```
+
+没错，只要在建立socket连接的时候，指定transports为websocket，就可以跳过enginio的xhr请求步骤，直接建立websocket连接
+
+比起改动java代码可谓是简单的多
+
+不得不感叹一下自己对前端的知识了解的太少，还需多学习
+
 # 参考链接
 + [【websocket】与Spring集成 Netty-SocketIO：最好用的Java版即时消息推送](https://blog.csdn.net/flyaimo/article/details/80107031)
 + [socket.io 原理详解](https://blog.csdn.net/u013243347/article/details/86669988)
