@@ -107,7 +107,7 @@ http://localhost:8100
 至此，hdfs本地环境搭建成功
 
 ### (5) 一些命令
-停止hdfs：
+停止hdfs：
 ```
 $ sbin/stop-dfs.sh
 ```
