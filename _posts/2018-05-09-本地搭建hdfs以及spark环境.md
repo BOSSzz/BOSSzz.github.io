@@ -77,7 +77,7 @@ $ bin/hdfs namenode -format
 $ sbin/start-dfs.sh
 ```
 
-在mac系统中可能会遇到如下问题:
+在mac系统中可能会遇到如下问题:
 
 ![错误](https://github.com/BOSSzz/BOSSzz.github.io/blob/master/_posts/images/hadoop_start_error.png?raw=true)
 
