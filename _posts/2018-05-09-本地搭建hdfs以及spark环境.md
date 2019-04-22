@@ -129,7 +129,7 @@ $ bin/hadoop fs -mkdir /test
 
 
 ## 2.spark准备
-从官网下载spark的包
+从官网下载spark的包
 
 http://spark.apache.org/downloads.html
 
@@ -160,7 +160,7 @@ $ sbin/start-master.sh
 $ bin/spark-class org.apache.spark.deploy.worker.Worker spark://zhoujydeMacBook-Pro.local:7077
 ```
 
-看到成功的信息：
+看到成功的信息：
 ![](https://github.com/BOSSzz/BOSSzz.github.io/blob/master/_posts/images/spark_worker.png?raw=true)
 成功启动worker后，再看页面，可以看到启动的alive workers 为1
 ![](https://github.com/BOSSzz/BOSSzz.github.io/blob/master/_posts/images/spark_master.png?raw=true)
