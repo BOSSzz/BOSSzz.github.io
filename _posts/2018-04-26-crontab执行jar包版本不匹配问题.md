@@ -27,7 +27,7 @@ tags: crontab, java
         at java.lang.ClassLoader.loadClass(ClassLoader.java:270)
         at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:406)
 
-一开始以为是本地jdk版本过高导致的，但是使用jdk1.7编译依然是同样的问题
+一开始以为是本地jdk版本过高导致的，但是使用jdk1.7编译依然是同样的问题
 
 报错原因其实很简单，是因为没有加载正确的配置导致，在shell脚本前加上
 > source /etc/profile
